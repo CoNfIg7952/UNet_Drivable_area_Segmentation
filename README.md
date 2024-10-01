@@ -9,7 +9,7 @@
 This project focuses on drivable area detection using the BDK100 dataset and a UNet model. The goal is to accurately identify lane lines which you can drive in, which is a critical task for autonomous driving systems.
 
 ## Dataset
-unzip the segmenation.zip file to find the dataset used
+[unzip the segmenation.zip file to find the dataset used](https://doc.bdd100k.com/download.html#drivable-area)
 
 ## Model Architecture
 I have implemented a [UNet model](link_to_UNet_paper) for drivable area segmentation. The UNet architecture consists of an encoder-decoder structure that helps in capturing both local and global information for precise segmentation.
@@ -22,4 +22,4 @@ I have implemented a [UNet model](link_to_UNet_paper) for drivable area segmenta
 - Loss function: Dice loss
 - Optimizer: Adam
 
-to run this project locally, download and extract the segmentation.zip file, which has the required util files to run the UNet_code
+to run this project locally, download the utils.py file, which has the required utils to run the UNet_code
